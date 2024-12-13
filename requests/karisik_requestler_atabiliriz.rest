@@ -1,0 +1,16 @@
+## Yorumlarda atabiliriz bu şekilde
+
+## Tüm notları getir
+GET http://localhost:3001/api/notes
+
+### Tek bir notu al
+GET http://localhost:3001/api/notes/1
+
+### Bir Not Ekle
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "bir dosyada karisik requestler de atabiliriz",
+  "important": true
+}
