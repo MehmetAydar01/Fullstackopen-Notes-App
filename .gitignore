@@ -4,4 +4,4 @@ node_modules/
 
 .env
 
-requests/updating_note_important.rest
+requests/notes/updating_note_important.rest
