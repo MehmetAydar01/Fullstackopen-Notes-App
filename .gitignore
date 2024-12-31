@@ -5,3 +5,4 @@ node_modules/
 .env
 
 requests/notes/updating_note_important.rest
+requests/notes/creating_new_note_with_token.rest
